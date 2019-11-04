@@ -45,6 +45,8 @@ def using_delete(instructors, "Steven")
 end
 
 def using_delete_at
+  famous_robots.delete_at(2)
+end
 
 
 

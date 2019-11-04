@@ -40,8 +40,9 @@ def using_flatten(instruments)
   instruments.flatten
 end
 
-def using_delete(instructors, 'Steven')
-  instructors.delete('Steven')
+def using_delete(instructors, too_many)
+  too_many = "Steven"
+  instructors.delete(too_many)
 end
 
 def using_delete_at
